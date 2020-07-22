@@ -1,0 +1,62 @@
+/* 全局样式表 */
+
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 给面包屑区域 */
+.el-breadcrumb {
+  margin-top: -10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: start;
+}
+.el-breadcrumb span {
+  margin: 4px;
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.el-breadcrumb i {
+  margin: 4px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.el-breadcrumb img {
+  margin: -4px;
+  width: 25px;
+  height: 25px;
+  margin-right: 2px;
+}
+
+
+
+
+/* 给卡片视图区域加阴影 */
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+  margin-bottom: -20px;
+}
+
+/* 列表 */
+.el-table {
+  margin-top: 20px;
+  font-size: 20px;
+  /* height: 700px; */
+  /* height: auto; */
+}
+
+/* 分页 */
+.el-pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  height: 15px;
+}
